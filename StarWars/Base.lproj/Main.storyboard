@@ -40,11 +40,48 @@
                     <navigationItem key="navigationItem" id="WQZ-5G-qk8"/>
                     <connections>
                         <outlet property="tableView" destination="Xw6-bQ-SKa" id="FtF-Zh-b7O"/>
+                        <segue destination="Sih-yr-6Vz" kind="show" identifier="toNext" id="cwo-Ix-iRt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="117.85714285714285"/>
+        </scene>
+        <!--Next View Controller-->
+        <scene sceneID="fcZ-mS-DOl">
+            <objects>
+                <viewController id="Sih-yr-6Vz" customClass="NextViewController" customModule="StarWars" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jf4-zS-WHk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="z8E-E0-nRD">
+                                <rect key="frame" x="61" y="165" width="299" height="233"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="0.94865494966506958" green="0.71695661544799805" blue="0.12020768970251083" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="タイトル" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KEL-Uv-1Wa">
+                                <rect key="frame" x="20" y="88" width="374" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="8P8-c6-jmE"/>
+                    </view>
+                    <connections>
+                        <outlet property="movieTItleLabel" destination="KEL-Uv-1Wa" id="TTZ-8o-qQl"/>
+                        <outlet property="openingLabel" destination="z8E-E0-nRD" id="KpH-De-DV2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ryg-Co-ida" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1842.0289855072465" y="117.85714285714285"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="9NC-8k-vPH">

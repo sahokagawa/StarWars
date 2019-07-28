@@ -19,7 +19,7 @@ class ViewController: UIViewController {
                   "ジェダイの帰還",
                   "フォースの帰還",
                   "最後のジェダイ",
-                  "スカイウォーカーの夜明け",]
+                  "スカイウォーカーの夜明け"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,5 +45,17 @@ extension ViewController: UITableViewDataSource,UITableViewDelegate{
         return cell
     }
     
+//   セルがクリックされたら...
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier:"toNext", sender: series[indexPath.row])
+    }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toNext"{
+            let nextVC = segue.destination as! NextViewController
+            nextVC.starwarsSeries = sender as! String
+        }
+    }
     
 }
