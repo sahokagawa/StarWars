@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Snc-r2-sQ4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Sih-yr-6Vz">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -50,7 +50,7 @@
         <!--Next View Controller-->
         <scene sceneID="fcZ-mS-DOl">
             <objects>
-                <viewController id="Sih-yr-6Vz" customClass="NextViewController" customModule="StarWars" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Sih-yr-6Vz" customClass="NextViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jf4-zS-WHk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -74,6 +74,9 @@
                                 <rect key="frame" x="158" y="569" width="98" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="r2d2"/>
+                                <connections>
+                                    <action selector="didClickButton:" destination="Sih-yr-6Vz" eventType="touchUpInside" id="Fdr-BW-Scl"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -83,26 +86,27 @@
                         <outlet property="favoriteImage" destination="Prj-Zg-bCT" id="VVW-vs-u0r"/>
                         <outlet property="movieTItleLabel" destination="KEL-Uv-1Wa" id="TTZ-8o-qQl"/>
                         <outlet property="openingLabel" destination="z8E-E0-nRD" id="KpH-De-DV2"/>
+                        <segue destination="FpU-YV-dV6" kind="show" identifier="toNext2" id="Kh7-J4-LQq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ryg-Co-ida" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1842.0289855072465" y="117.85714285714285"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="X1n-2V-v7D">
+        <!--Next View Controller2-->
+        <scene sceneID="5BO-a0-9Vz">
             <objects>
-                <viewController id="SHc-Dm-tSl" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="MO2-YC-ZWm">
+                <viewController id="FpU-YV-dV6" customClass="NextViewController2" customModule="Motion" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Joe-WB-swA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="Avp-sG-jDJ"/>
+                        <viewLayoutGuide key="safeArea" id="v7H-s2-tnY"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dG8-Fh-duK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JSM-Lq-DSv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2836" y="-466"/>
+            <point key="canvasLocation" x="2796" y="118"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="9NC-8k-vPH">

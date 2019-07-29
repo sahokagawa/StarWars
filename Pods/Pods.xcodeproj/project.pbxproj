@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0483A5EE4459E09CF5EB4DDB093F96D4 /* MotionProgressRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4259887793395185A681B72CBBDA79 /* MotionProgressRunner.swift */; };
+		0AE9E94AADAC750D2407A56454D4DC3E /* Pods-StarWars-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD721FECCC80DA56FA2D85CC954D538 /* Pods-StarWars-dummy.m */; };
+		0B2F1C80C8A34AA1B49B13A59B204A14 /* MotionTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D84EA39AB38C296B678CAAA2D519E4 /* MotionTransition.swift */; };
+		0D6340000725FA261C356F5844046E5F /* ConditionalPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D3AC08DB2B69463A53B56BBF6AF836 /* ConditionalPreprocessor.swift */; };
+		10B765CA2F74DA786B5BBEFFE9289821 /* MotionAnimationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AB9AF10DBEB74C4524345930D1B8F7 /* MotionAnimationState.swift */; };
+		1723196E0187F2A8B97AB671B5F2AEA3 /* Motion+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6011FF369BC44081AB7ED27738B0D4 /* Motion+UIView.swift */; };
+		1E25D0C11649C68786B4A6CABD3FF20B /* Motion+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29135F948738C7C2C10E84A7946F08FC /* Motion+Array.swift */; };
+		26E3ED878E28AEF14F803A748CFC2218 /* Motion+Obj-C.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C453359AB6CF14D932E062B23F9A3F4 /* Motion+Obj-C.swift */; };
+		309085917AC5FD9D654C363A2A5B71FC /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79063096A88A1C6F881010921BCAF47 /* Application.swift */; };
+		317F06F622EE5A4A00F0FE80 /* NextViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317F06F522EE5A4A00F0FE80 /* NextViewController2.swift */; };
+		3A1E44777BED307F736D2CCAC4A0AE42 /* MotionModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89F42B1F7FF77FDDA02C2F0AEE5C82 /* MotionModifier.swift */; };
+		3D3F536AE3B564EF5DDE0F5E97016C56 /* TransitionPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D48951B194B121738F951174ED7A72 /* TransitionPreprocessor.swift */; };
+		3F25DECA9F12C5D46B1629A88DE09621 /* Motion+CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230CD874DA09D89D089994A1DC6781C2 /* Motion+CALayer.swift */; };
+		412205B2EE2130643BE11BBC022960FD /* MotionTransition+Interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4BED98996D39663CCAC92CCE9523D5 /* MotionTransition+Interactive.swift */; };
+		4230F9BB88BCF9953ED165FDB21F6822 /* MotionTransition+CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5572A4E4C6DA007E3E5A6D6B210D18 /* MotionTransition+CustomTransition.swift */; };
+		463FD6A64039CEFC08F380913D5112EB /* MatchPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D0905EA862E77C4FFA4EE6FEBE0D20 /* MatchPreprocessor.swift */; };
+		46A22027CDD3A3831A9105231E59D644 /* MotionAnimatorViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FC51E036A47F28FB991EA921C6BE39 /* MotionAnimatorViewContext.swift */; };
+		4BBB1A77132D1CCFE01CAC2242CAB1EA /* MotionCoreAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F892B30A156A2E9C53CE657341C685 /* MotionCoreAnimator.swift */; };
+		57C1BD408E028AAEEEFD1E14D63B49E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5BBADFDBFEC30D9C9F2627A9B94E72D7 /* MotionCoordinateSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B89B4DCF2027C73526C6A3DC4D1D2A1 /* MotionCoordinateSpace.swift */; };
+		5CE57DFE0211DF2136F0D85EC0DF8443 /* MotionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F85316324785203554CD02929F26E99 /* MotionAnimation.swift */; };
+		61D5969CA992B1CBEF0238B8A470DE3C /* MotionPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC65318142F31B6779FFC08CE70B423 /* MotionPreprocessor.swift */; };
+		673485D58E3E723BC59A27EEEDCE3F26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6A4789BE97AFBE65662059B1A413A305 /* MotionTransition+UIViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248C789E7C598C79EA9E4A103DA77276 /* MotionTransition+UIViewControllerTransitioningDelegate.swift */; };
+		727D2688A4CFB2A4AA5B09CCCDF7C74E /* IgnoreSubviewModifiersPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99E1EB58DCCBD3FEA81066DE1D3F92A /* IgnoreSubviewModifiersPreprocessor.swift */; };
+		7475667CD310E7FCE432B72F495B41F0 /* Motion-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD29CAC1243024F2EA9ED4D950038F76 /* Motion-dummy.m */; };
+		74B31609FF8CFA6616E9FAE49A8D12BD /* MotionTransitionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516FF7961439405C0151E9B78ED674B /* MotionTransitionObserver.swift */; };
+		7817A86B5095EE85E0B1C07BA52E5AC5 /* SourcePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A561A931D33C82DDC5DA949981A2C5FE /* SourcePreprocessor.swift */; };
+		7B2A1D2FB096F281699C755ABD3B69FE /* MotionTransition+Complete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649E1723670597E2CEDB7FF450B9D21F /* MotionTransition+Complete.swift */; };
+		7E624A7936D0667CE4DF05EEC9E9CB12 /* MotionViewTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF3EE3196DD8104CD809924EF4E3C78 /* MotionViewTransition.swift */; };
+		7EBF65FFF704A20C1A427282812A4DF9 /* Motion+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63358C7B4478E67FC70927FFF9681E9F /* Motion+UIViewController.swift */; };
+		8D59937E268F2B5B029299E991D8FCFC /* Motion+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E6622AD666B9AD6991C35A35FF3F70 /* Motion+UIKit.swift */; };
+		92690DBB54CE74542B1FC22405F0D9C8 /* MotionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B605C6CEECA9A5B7DB9E422B51424D22 /* MotionContext.swift */; };
+		AA9123964E64CB4F45663E479DD770C4 /* MotionViewTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E584D77A08D984C7256F76F95C0C5A /* MotionViewTransitionAnimator.swift */; };
+		ACEBA1427D7AB3EC0693F8AA34DEE682 /* MotionTransition+UITabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6D128EFECB2949D8D3536D2EAB740C /* MotionTransition+UITabBarControllerDelegate.swift */; };
+		AF95EF2E96454B2C6C012E6BA8A0378C /* MotionCorePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E4A18B012B536516645C9D4901C0C8 /* MotionCorePreprocessor.swift */; };
+		B9BE1785A558A68475ECB09E5FA9D25B /* MotionViewOrderStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0215106DE39880DB901EC0B4EC9889 /* MotionViewOrderStrategy.swift */; };
+		BBAEF217A622EFBF030DDA62BDDCC3F3 /* MotionCoreAnimationViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4330F52E29DCD4D62FC0BFD2BF7077A /* MotionCoreAnimationViewContext.swift */; };
+		C160270D031A31FE3692625E097086CE /* MotionViewPropertyViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E8A5DD5F258BAED940081BE27E9416 /* MotionViewPropertyViewContext.swift */; };
+		C5B3D2DD090E72F27A6F3C0D59F2FB2E /* MotionTargetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3DEA184002A188EAAF87BE9267C78A /* MotionTargetState.swift */; };
+		C6FCAEC50CBB29B4F5620461E5D1093D /* MotionTransition+Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C89BC356855BE23B8B1B5260959582 /* MotionTransition+Animate.swift */; };
+		C7EB9B0DA81C61394FCE3E60CF8DA326 /* MotionTransition+UINavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15B6DD57E619A0B9470FFCA8D69B5E6 /* MotionTransition+UINavigationControllerDelegate.swift */; };
+		C8369B8898C52F3A2FC723651B011931 /* Pods-StarWars-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DCC07782F6ED817FDCA1D161575FB83 /* Pods-StarWars-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB65147BF39BD2DD62EFD8F5D7DFCA9E /* MotionCAAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31818C763A089B6C1E193CD5E629708 /* MotionCAAnimation.swift */; };
+		CECCA4016CB0E03AC93D7D5E1CD9EEF3 /* Motion+CG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5233A4550B60D2552FD722698A62A610 /* Motion+CG.swift */; };
+		D41AA4853889F1497204B42CC4D4CADD /* MotionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38736148511677C773019039B9E3C28 /* MotionAnimator.swift */; };
+		D43CF3D128D71F638E31FF421C232288 /* Motion+CAMediaTimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6289F821E6CD96E6B3B89E7F41F535 /* Motion+CAMediaTimingFunction.swift */; };
+		E4A3E04C6DB15F417020D3433BBDBD13 /* MotionTransition+Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294866C39F663ECA21899F33CDB15ADA /* MotionTransition+Start.swift */; };
+		E664CEC0E95D6F7242F91D8A2C635E94 /* CascadePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55897E6C6154B06D3914EC26A113250A /* CascadePreprocessor.swift */; };
+		E8133E0BBF2E19FCD351647A99541630 /* MotionSnapshotType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32873042AFE5177E4C728ACCB0E74BA9 /* MotionSnapshotType.swift */; };
+		EE48C3FC740CB4CA3AC6C98BF9140F3A /* MotionPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D205F51F51CB6D514DC3A08871C3E5 /* MotionPlugin.swift */; };
+		FE2D49280F7EF6313D1CD9BD0C60F511 /* Motion-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7015915E23465D1CE83E0F3511A74712 /* Motion-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		715E191DF78AD4F818922B8A11F7C240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9312109646DF39EBE725AD8F96A8C18B;
+			remoteInfo = Motion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07D205F51F51CB6D514DC3A08871C3E5 /* MotionPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionPlugin.swift; path = Sources/MotionPlugin.swift; sourceTree = "<group>"; };
+		08C1F292F80CA5B3059681BC8177D567 /* Pods-StarWars-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StarWars-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B5572A4E4C6DA007E3E5A6D6B210D18 /* MotionTransition+CustomTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+CustomTransition.swift"; path = "Sources/Transition/MotionTransition+CustomTransition.swift"; sourceTree = "<group>"; };
+		0DD721FECCC80DA56FA2D85CC954D538 /* Pods-StarWars-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StarWars-dummy.m"; sourceTree = "<group>"; };
+		18D3AC08DB2B69463A53B56BBF6AF836 /* ConditionalPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConditionalPreprocessor.swift; path = Sources/Preprocessors/ConditionalPreprocessor.swift; sourceTree = "<group>"; };
+		1DCC07782F6ED817FDCA1D161575FB83 /* Pods-StarWars-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StarWars-umbrella.h"; sourceTree = "<group>"; };
+		1EC65318142F31B6779FFC08CE70B423 /* MotionPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionPreprocessor.swift; path = Sources/Preprocessors/MotionPreprocessor.swift; sourceTree = "<group>"; };
+		230CD874DA09D89D089994A1DC6781C2 /* Motion+CALayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+CALayer.swift"; path = "Sources/Extensions/Motion+CALayer.swift"; sourceTree = "<group>"; };
+		248C789E7C598C79EA9E4A103DA77276 /* MotionTransition+UIViewControllerTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+UIViewControllerTransitioningDelegate.swift"; path = "Sources/Transition/MotionTransition+UIViewControllerTransitioningDelegate.swift"; sourceTree = "<group>"; };
+		29135F948738C7C2C10E84A7946F08FC /* Motion+Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+Array.swift"; path = "Sources/Extensions/Motion+Array.swift"; sourceTree = "<group>"; };
+		294866C39F663ECA21899F33CDB15ADA /* MotionTransition+Start.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+Start.swift"; path = "Sources/Transition/MotionTransition+Start.swift"; sourceTree = "<group>"; };
+		2B89B4DCF2027C73526C6A3DC4D1D2A1 /* MotionCoordinateSpace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionCoordinateSpace.swift; path = Sources/MotionCoordinateSpace.swift; sourceTree = "<group>"; };
+		317F06F522EE5A4A00F0FE80 /* NextViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController2.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32873042AFE5177E4C728ACCB0E74BA9 /* MotionSnapshotType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionSnapshotType.swift; path = Sources/MotionSnapshotType.swift; sourceTree = "<group>"; };
+		3516FF7961439405C0151E9B78ED674B /* MotionTransitionObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionTransitionObserver.swift; path = Sources/MotionTransitionObserver.swift; sourceTree = "<group>"; };
+		42C89BC356855BE23B8B1B5260959582 /* MotionTransition+Animate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+Animate.swift"; path = "Sources/Transition/MotionTransition+Animate.swift"; sourceTree = "<group>"; };
+		42E8A5DD5F258BAED940081BE27E9416 /* MotionViewPropertyViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionViewPropertyViewContext.swift; path = Sources/Animator/MotionViewPropertyViewContext.swift; sourceTree = "<group>"; };
+		4BF3EE3196DD8104CD809924EF4E3C78 /* MotionViewTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionViewTransition.swift; path = Sources/MotionViewTransition.swift; sourceTree = "<group>"; };
+		4F85316324785203554CD02929F26E99 /* MotionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimation.swift; path = Sources/MotionAnimation.swift; sourceTree = "<group>"; };
+		5233A4550B60D2552FD722698A62A610 /* Motion+CG.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+CG.swift"; path = "Sources/Extensions/Motion+CG.swift"; sourceTree = "<group>"; };
+		55897E6C6154B06D3914EC26A113250A /* CascadePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CascadePreprocessor.swift; path = Sources/Preprocessors/CascadePreprocessor.swift; sourceTree = "<group>"; };
+		5F08F15C17393B2FD334E53E3DA18C36 /* Motion.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Motion.modulemap; sourceTree = "<group>"; };
+		60E584D77A08D984C7256F76F95C0C5A /* MotionViewTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionViewTransitionAnimator.swift; path = Sources/Animator/MotionViewTransitionAnimator.swift; sourceTree = "<group>"; };
+		63358C7B4478E67FC70927FFF9681E9F /* Motion+UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+UIViewController.swift"; path = "Sources/Extensions/Motion+UIViewController.swift"; sourceTree = "<group>"; };
+		633748A9BA1AED0369BB55691A93DCBE /* Motion.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Motion.xcconfig; sourceTree = "<group>"; };
+		649E1723670597E2CEDB7FF450B9D21F /* MotionTransition+Complete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+Complete.swift"; path = "Sources/Transition/MotionTransition+Complete.swift"; sourceTree = "<group>"; };
+		7015915E23465D1CE83E0F3511A74712 /* Motion-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Motion-umbrella.h"; sourceTree = "<group>"; };
+		71FC51E036A47F28FB991EA921C6BE39 /* MotionAnimatorViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimatorViewContext.swift; path = Sources/Animator/MotionAnimatorViewContext.swift; sourceTree = "<group>"; };
+		74E6622AD666B9AD6991C35A35FF3F70 /* Motion+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+UIKit.swift"; path = "Sources/Extensions/Motion+UIKit.swift"; sourceTree = "<group>"; };
+		81D0905EA862E77C4FFA4EE6FEBE0D20 /* MatchPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchPreprocessor.swift; path = Sources/Preprocessors/MatchPreprocessor.swift; sourceTree = "<group>"; };
+		8377D823271B41B4A82EFF3D2A01F1EC /* Pods-StarWars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarWars.debug.xcconfig"; sourceTree = "<group>"; };
+		88E4A18B012B536516645C9D4901C0C8 /* MotionCorePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionCorePreprocessor.swift; path = Sources/Preprocessors/MotionCorePreprocessor.swift; sourceTree = "<group>"; };
+		8C453359AB6CF14D932E062B23F9A3F4 /* Motion+Obj-C.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+Obj-C.swift"; path = "Sources/Extensions/Motion+Obj-C.swift"; sourceTree = "<group>"; };
+		8C4BED98996D39663CCAC92CCE9523D5 /* MotionTransition+Interactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+Interactive.swift"; path = "Sources/Transition/MotionTransition+Interactive.swift"; sourceTree = "<group>"; };
+		95BAB4D53AF92F944D4C5DA0EB565CB2 /* Pods_StarWars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarWars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		972DA29836A7891C02D67B27AB588AB0 /* Pods-StarWars-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StarWars-frameworks.sh"; sourceTree = "<group>"; };
+		9B3DEA184002A188EAAF87BE9267C78A /* MotionTargetState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionTargetState.swift; path = Sources/MotionTargetState.swift; sourceTree = "<group>"; };
+		9B6D128EFECB2949D8D3536D2EAB740C /* MotionTransition+UITabBarControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+UITabBarControllerDelegate.swift"; path = "Sources/Transition/MotionTransition+UITabBarControllerDelegate.swift"; sourceTree = "<group>"; };
+		9C6289F821E6CD96E6B3B89E7F41F535 /* Motion+CAMediaTimingFunction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+CAMediaTimingFunction.swift"; path = "Sources/Extensions/Motion+CAMediaTimingFunction.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A207AE435A066FC05A4DE90DFA550412 /* Pods-StarWars-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarWars-Info.plist"; sourceTree = "<group>"; };
+		A41EED70D47DD3B82EEAA5D8B86DB012 /* Pods-StarWars.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StarWars.modulemap"; sourceTree = "<group>"; };
+		A561A931D33C82DDC5DA949981A2C5FE /* SourcePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourcePreprocessor.swift; path = Sources/Preprocessors/SourcePreprocessor.swift; sourceTree = "<group>"; };
+		A6D84EA39AB38C296B678CAAA2D519E4 /* MotionTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionTransition.swift; path = Sources/Transition/MotionTransition.swift; sourceTree = "<group>"; };
+		B0F892B30A156A2E9C53CE657341C685 /* MotionCoreAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionCoreAnimator.swift; path = Sources/Animator/MotionCoreAnimator.swift; sourceTree = "<group>"; };
+		B15B6DD57E619A0B9470FFCA8D69B5E6 /* MotionTransition+UINavigationControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+UINavigationControllerDelegate.swift"; path = "Sources/Transition/MotionTransition+UINavigationControllerDelegate.swift"; sourceTree = "<group>"; };
+		B605C6CEECA9A5B7DB9E422B51424D22 /* MotionContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionContext.swift; path = Sources/MotionContext.swift; sourceTree = "<group>"; };
+		B99E1EB58DCCBD3FEA81066DE1D3F92A /* IgnoreSubviewModifiersPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IgnoreSubviewModifiersPreprocessor.swift; path = Sources/Preprocessors/IgnoreSubviewModifiersPreprocessor.swift; sourceTree = "<group>"; };
+		BCE11AE322D367A9D9AD9E8AE8FE8DBA /* Motion-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Motion-prefix.pch"; sourceTree = "<group>"; };
+		BD29CAC1243024F2EA9ED4D950038F76 /* Motion-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Motion-dummy.m"; sourceTree = "<group>"; };
+		C31818C763A089B6C1E193CD5E629708 /* MotionCAAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionCAAnimation.swift; path = Sources/MotionCAAnimation.swift; sourceTree = "<group>"; };
+		C38736148511677C773019039B9E3C28 /* MotionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimator.swift; path = Sources/Animator/MotionAnimator.swift; sourceTree = "<group>"; };
+		C3AB9AF10DBEB74C4524345930D1B8F7 /* MotionAnimationState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimationState.swift; path = Sources/MotionAnimationState.swift; sourceTree = "<group>"; };
+		C4330F52E29DCD4D62FC0BFD2BF7077A /* MotionCoreAnimationViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionCoreAnimationViewContext.swift; path = Sources/Animator/MotionCoreAnimationViewContext.swift; sourceTree = "<group>"; };
+		C7D48951B194B121738F951174ED7A72 /* TransitionPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionPreprocessor.swift; path = Sources/Preprocessors/TransitionPreprocessor.swift; sourceTree = "<group>"; };
+		C81A36FC9BB1C6ADD84E4F83A1DCC4D9 /* Pods-StarWars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarWars.release.xcconfig"; sourceTree = "<group>"; };
+		CB0215106DE39880DB901EC0B4EC9889 /* MotionViewOrderStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionViewOrderStrategy.swift; path = Sources/MotionViewOrderStrategy.swift; sourceTree = "<group>"; };
+		CE4259887793395185A681B72CBBDA79 /* MotionProgressRunner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionProgressRunner.swift; path = Sources/Transition/MotionProgressRunner.swift; sourceTree = "<group>"; };
+		CF6011FF369BC44081AB7ED27738B0D4 /* Motion+UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+UIView.swift"; path = "Sources/Extensions/Motion+UIView.swift"; sourceTree = "<group>"; };
+		D79063096A88A1C6F881010921BCAF47 /* Application.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Application.swift; path = Sources/Application.swift; sourceTree = "<group>"; };
+		E9E83947349F7E8028823F3766451329 /* Motion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Motion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED89F42B1F7FF77FDDA02C2F0AEE5C82 /* MotionModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionModifier.swift; path = Sources/MotionModifier.swift; sourceTree = "<group>"; };
+		F8AB03115F5C03008B4FB69371B8472B /* Pods-StarWars-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarWars-acknowledgements.plist"; sourceTree = "<group>"; };
+		FB0BC4DF38728D98D1B62E8CC03051BE /* Motion-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Motion-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6888B7B42FEB03ABDADA075CDADD3BC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C1BD408E028AAEEEFD1E14D63B49E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B4E1FDB2E0D407698AE97B8BEDD7E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673485D58E3E723BC59A27EEEDCE3F26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A6506B69E3E15A769EE3EF3B8ED20E2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				363D92894A8C613F34AE7EC82807E656 /* Pods-StarWars */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1CF0EA51160D9A0FB358022757484B25 /* Motion */ = {
+			isa = PBXGroup;
+			children = (
+				C529B17864CA709E84EFEEBAA2DAFE46 /* Core */,
+				47581FA9AC6F1FF34BF9E3EC94FF93F9 /* Support Files */,
+			);
+			path = Motion;
+			sourceTree = "<group>";
+		};
+		363D92894A8C613F34AE7EC82807E656 /* Pods-StarWars */ = {
+			isa = PBXGroup;
+			children = (
+				A41EED70D47DD3B82EEAA5D8B86DB012 /* Pods-StarWars.modulemap */,
+				08C1F292F80CA5B3059681BC8177D567 /* Pods-StarWars-acknowledgements.markdown */,
+				F8AB03115F5C03008B4FB69371B8472B /* Pods-StarWars-acknowledgements.plist */,
+				0DD721FECCC80DA56FA2D85CC954D538 /* Pods-StarWars-dummy.m */,
+				972DA29836A7891C02D67B27AB588AB0 /* Pods-StarWars-frameworks.sh */,
+				A207AE435A066FC05A4DE90DFA550412 /* Pods-StarWars-Info.plist */,
+				1DCC07782F6ED817FDCA1D161575FB83 /* Pods-StarWars-umbrella.h */,
+				8377D823271B41B4A82EFF3D2A01F1EC /* Pods-StarWars.debug.xcconfig */,
+				C81A36FC9BB1C6ADD84E4F83A1DCC4D9 /* Pods-StarWars.release.xcconfig */,
+			);
+			name = "Pods-StarWars";
+			path = "Target Support Files/Pods-StarWars";
+			sourceTree = "<group>";
+		};
+		47581FA9AC6F1FF34BF9E3EC94FF93F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F08F15C17393B2FD334E53E3DA18C36 /* Motion.modulemap */,
+				633748A9BA1AED0369BB55691A93DCBE /* Motion.xcconfig */,
+				BD29CAC1243024F2EA9ED4D950038F76 /* Motion-dummy.m */,
+				FB0BC4DF38728D98D1B62E8CC03051BE /* Motion-Info.plist */,
+				BCE11AE322D367A9D9AD9E8AE8FE8DBA /* Motion-prefix.pch */,
+				7015915E23465D1CE83E0F3511A74712 /* Motion-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Motion";
+			sourceTree = "<group>";
+		};
+		5D3834E43634AD0F9A495F871A77E155 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CF0EA51160D9A0FB358022757484B25 /* Motion */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E961B1BC8ED965027D510AF95570C2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9E83947349F7E8028823F3766451329 /* Motion.framework */,
+				95BAB4D53AF92F944D4C5DA0EB565CB2 /* Pods_StarWars.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C529B17864CA709E84EFEEBAA2DAFE46 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D79063096A88A1C6F881010921BCAF47 /* Application.swift */,
+				55897E6C6154B06D3914EC26A113250A /* CascadePreprocessor.swift */,
+				18D3AC08DB2B69463A53B56BBF6AF836 /* ConditionalPreprocessor.swift */,
+				B99E1EB58DCCBD3FEA81066DE1D3F92A /* IgnoreSubviewModifiersPreprocessor.swift */,
+				81D0905EA862E77C4FFA4EE6FEBE0D20 /* MatchPreprocessor.swift */,
+				29135F948738C7C2C10E84A7946F08FC /* Motion+Array.swift */,
+				230CD874DA09D89D089994A1DC6781C2 /* Motion+CALayer.swift */,
+				9C6289F821E6CD96E6B3B89E7F41F535 /* Motion+CAMediaTimingFunction.swift */,
+				5233A4550B60D2552FD722698A62A610 /* Motion+CG.swift */,
+				8C453359AB6CF14D932E062B23F9A3F4 /* Motion+Obj-C.swift */,
+				74E6622AD666B9AD6991C35A35FF3F70 /* Motion+UIKit.swift */,
+				CF6011FF369BC44081AB7ED27738B0D4 /* Motion+UIView.swift */,
+				63358C7B4478E67FC70927FFF9681E9F /* Motion+UIViewController.swift */,
+				4F85316324785203554CD02929F26E99 /* MotionAnimation.swift */,
+				C3AB9AF10DBEB74C4524345930D1B8F7 /* MotionAnimationState.swift */,
+				C38736148511677C773019039B9E3C28 /* MotionAnimator.swift */,
+				71FC51E036A47F28FB991EA921C6BE39 /* MotionAnimatorViewContext.swift */,
+				C31818C763A089B6C1E193CD5E629708 /* MotionCAAnimation.swift */,
+				B605C6CEECA9A5B7DB9E422B51424D22 /* MotionContext.swift */,
+				2B89B4DCF2027C73526C6A3DC4D1D2A1 /* MotionCoordinateSpace.swift */,
+				C4330F52E29DCD4D62FC0BFD2BF7077A /* MotionCoreAnimationViewContext.swift */,
+				B0F892B30A156A2E9C53CE657341C685 /* MotionCoreAnimator.swift */,
+				88E4A18B012B536516645C9D4901C0C8 /* MotionCorePreprocessor.swift */,
+				ED89F42B1F7FF77FDDA02C2F0AEE5C82 /* MotionModifier.swift */,
+				07D205F51F51CB6D514DC3A08871C3E5 /* MotionPlugin.swift */,
+				1EC65318142F31B6779FFC08CE70B423 /* MotionPreprocessor.swift */,
+				CE4259887793395185A681B72CBBDA79 /* MotionProgressRunner.swift */,
+				32873042AFE5177E4C728ACCB0E74BA9 /* MotionSnapshotType.swift */,
+				9B3DEA184002A188EAAF87BE9267C78A /* MotionTargetState.swift */,
+				A6D84EA39AB38C296B678CAAA2D519E4 /* MotionTransition.swift */,
+				42C89BC356855BE23B8B1B5260959582 /* MotionTransition+Animate.swift */,
+				649E1723670597E2CEDB7FF450B9D21F /* MotionTransition+Complete.swift */,
+				0B5572A4E4C6DA007E3E5A6D6B210D18 /* MotionTransition+CustomTransition.swift */,
+				8C4BED98996D39663CCAC92CCE9523D5 /* MotionTransition+Interactive.swift */,
+				294866C39F663ECA21899F33CDB15ADA /* MotionTransition+Start.swift */,
+				B15B6DD57E619A0B9470FFCA8D69B5E6 /* MotionTransition+UINavigationControllerDelegate.swift */,
+				9B6D128EFECB2949D8D3536D2EAB740C /* MotionTransition+UITabBarControllerDelegate.swift */,
+				248C789E7C598C79EA9E4A103DA77276 /* MotionTransition+UIViewControllerTransitioningDelegate.swift */,
+				3516FF7961439405C0151E9B78ED674B /* MotionTransitionObserver.swift */,
+				CB0215106DE39880DB901EC0B4EC9889 /* MotionViewOrderStrategy.swift */,
+				42E8A5DD5F258BAED940081BE27E9416 /* MotionViewPropertyViewContext.swift */,
+				4BF3EE3196DD8104CD809924EF4E3C78 /* MotionViewTransition.swift */,
+				60E584D77A08D984C7256F76F95C0C5A /* MotionViewTransitionAnimator.swift */,
+				A561A931D33C82DDC5DA949981A2C5FE /* SourcePreprocessor.swift */,
+				C7D48951B194B121738F951174ED7A72 /* TransitionPreprocessor.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				317F06F522EE5A4A00F0FE80 /* NextViewController2.swift */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5D3834E43634AD0F9A495F871A77E155 /* Pods */,
+				8E961B1BC8ED965027D510AF95570C2E /* Products */,
+				1A6506B69E3E15A769EE3EF3B8ED20E2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		122B65BEEE2C410C1C096301177D7EF3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8369B8898C52F3A2FC723651B011931 /* Pods-StarWars-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E1FEE90B5FDFA5866F8FDAB38B420A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2D49280F7EF6313D1CD9BD0C60F511 /* Motion-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0CD43E18AEABEF3B07452ADB0A2B1677 /* Pods-StarWars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43BDADB065F4863AA7A46493882083AB /* Build configuration list for PBXNativeTarget "Pods-StarWars" */;
+			buildPhases = (
+				122B65BEEE2C410C1C096301177D7EF3 /* Headers */,
+				3690BE3A8D1BFD06AC7749DFCC29BA96 /* Sources */,
+				6888B7B42FEB03ABDADA075CDADD3BC7 /* Frameworks */,
+				B14D53A403D87C0B6BE85B71F67E17B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BD24DFA257664F9D4939BCE51CDE251 /* PBXTargetDependency */,
+			);
+			name = "Pods-StarWars";
+			productName = "Pods-StarWars";
+			productReference = 95BAB4D53AF92F944D4C5DA0EB565CB2 /* Pods_StarWars.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9312109646DF39EBE725AD8F96A8C18B /* Motion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD85ED2280C8B28A283D153F13DDC5DA /* Build configuration list for PBXNativeTarget "Motion" */;
+			buildPhases = (
+				C7E1FEE90B5FDFA5866F8FDAB38B420A /* Headers */,
+				FDA1016BE3D9546E8733F857752E5890 /* Sources */,
+				D0B4E1FDB2E0D407698AE97B8BEDD7E7 /* Frameworks */,
+				E44A7EFC07DF629596FE9ACAEA46E64B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Motion;
+			productName = Motion;
+			productReference = E9E83947349F7E8028823F3766451329 /* Motion.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8E961B1BC8ED965027D510AF95570C2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9312109646DF39EBE725AD8F96A8C18B /* Motion */,
+				0CD43E18AEABEF3B07452ADB0A2B1677 /* Pods-StarWars */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B14D53A403D87C0B6BE85B71F67E17B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44A7EFC07DF629596FE9ACAEA46E64B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3690BE3A8D1BFD06AC7749DFCC29BA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE9E94AADAC750D2407A56454D4DC3E /* Pods-StarWars-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA1016BE3D9546E8733F857752E5890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309085917AC5FD9D654C363A2A5B71FC /* Application.swift in Sources */,
+				E664CEC0E95D6F7242F91D8A2C635E94 /* CascadePreprocessor.swift in Sources */,
+				0D6340000725FA261C356F5844046E5F /* ConditionalPreprocessor.swift in Sources */,
+				727D2688A4CFB2A4AA5B09CCCDF7C74E /* IgnoreSubviewModifiersPreprocessor.swift in Sources */,
+				463FD6A64039CEFC08F380913D5112EB /* MatchPreprocessor.swift in Sources */,
+				1E25D0C11649C68786B4A6CABD3FF20B /* Motion+Array.swift in Sources */,
+				3F25DECA9F12C5D46B1629A88DE09621 /* Motion+CALayer.swift in Sources */,
+				D43CF3D128D71F638E31FF421C232288 /* Motion+CAMediaTimingFunction.swift in Sources */,
+				CECCA4016CB0E03AC93D7D5E1CD9EEF3 /* Motion+CG.swift in Sources */,
+				26E3ED878E28AEF14F803A748CFC2218 /* Motion+Obj-C.swift in Sources */,
+				8D59937E268F2B5B029299E991D8FCFC /* Motion+UIKit.swift in Sources */,
+				1723196E0187F2A8B97AB671B5F2AEA3 /* Motion+UIView.swift in Sources */,
+				7EBF65FFF704A20C1A427282812A4DF9 /* Motion+UIViewController.swift in Sources */,
+				7475667CD310E7FCE432B72F495B41F0 /* Motion-dummy.m in Sources */,
+				5CE57DFE0211DF2136F0D85EC0DF8443 /* MotionAnimation.swift in Sources */,
+				10B765CA2F74DA786B5BBEFFE9289821 /* MotionAnimationState.swift in Sources */,
+				D41AA4853889F1497204B42CC4D4CADD /* MotionAnimator.swift in Sources */,
+				46A22027CDD3A3831A9105231E59D644 /* MotionAnimatorViewContext.swift in Sources */,
+				CB65147BF39BD2DD62EFD8F5D7DFCA9E /* MotionCAAnimation.swift in Sources */,
+				92690DBB54CE74542B1FC22405F0D9C8 /* MotionContext.swift in Sources */,
+				5BBADFDBFEC30D9C9F2627A9B94E72D7 /* MotionCoordinateSpace.swift in Sources */,
+				BBAEF217A622EFBF030DDA62BDDCC3F3 /* MotionCoreAnimationViewContext.swift in Sources */,
+				4BBB1A77132D1CCFE01CAC2242CAB1EA /* MotionCoreAnimator.swift in Sources */,
+				AF95EF2E96454B2C6C012E6BA8A0378C /* MotionCorePreprocessor.swift in Sources */,
+				3A1E44777BED307F736D2CCAC4A0AE42 /* MotionModifier.swift in Sources */,
+				EE48C3FC740CB4CA3AC6C98BF9140F3A /* MotionPlugin.swift in Sources */,
+				61D5969CA992B1CBEF0238B8A470DE3C /* MotionPreprocessor.swift in Sources */,
+				0483A5EE4459E09CF5EB4DDB093F96D4 /* MotionProgressRunner.swift in Sources */,
+				E8133E0BBF2E19FCD351647A99541630 /* MotionSnapshotType.swift in Sources */,
+				C5B3D2DD090E72F27A6F3C0D59F2FB2E /* MotionTargetState.swift in Sources */,
+				C6FCAEC50CBB29B4F5620461E5D1093D /* MotionTransition+Animate.swift in Sources */,
+				7B2A1D2FB096F281699C755ABD3B69FE /* MotionTransition+Complete.swift in Sources */,
+				4230F9BB88BCF9953ED165FDB21F6822 /* MotionTransition+CustomTransition.swift in Sources */,
+				412205B2EE2130643BE11BBC022960FD /* MotionTransition+Interactive.swift in Sources */,
+				E4A3E04C6DB15F417020D3433BBDBD13 /* MotionTransition+Start.swift in Sources */,
+				C7EB9B0DA81C61394FCE3E60CF8DA326 /* MotionTransition+UINavigationControllerDelegate.swift in Sources */,
+				ACEBA1427D7AB3EC0693F8AA34DEE682 /* MotionTransition+UITabBarControllerDelegate.swift in Sources */,
+				317F06F622EE5A4A00F0FE80 /* NextViewController2.swift in Sources */,
+				6A4789BE97AFBE65662059B1A413A305 /* MotionTransition+UIViewControllerTransitioningDelegate.swift in Sources */,
+				0B2F1C80C8A34AA1B49B13A59B204A14 /* MotionTransition.swift in Sources */,
+				74B31609FF8CFA6616E9FAE49A8D12BD /* MotionTransitionObserver.swift in Sources */,
+				B9BE1785A558A68475ECB09E5FA9D25B /* MotionViewOrderStrategy.swift in Sources */,
+				C160270D031A31FE3692625E097086CE /* MotionViewPropertyViewContext.swift in Sources */,
+				7E624A7936D0667CE4DF05EEC9E9CB12 /* MotionViewTransition.swift in Sources */,
+				AA9123964E64CB4F45663E479DD770C4 /* MotionViewTransitionAnimator.swift in Sources */,
+				7817A86B5095EE85E0B1C07BA52E5AC5 /* SourcePreprocessor.swift in Sources */,
+				3D3F536AE3B564EF5DDE0F5E97016C56 /* TransitionPreprocessor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BD24DFA257664F9D4939BCE51CDE251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Motion;
+			target = 9312109646DF39EBE725AD8F96A8C18B /* Motion */;
+			targetProxy = 715E191DF78AD4F818922B8A11F7C240 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08E3698226C4A264A75B3502FCBA9710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 633748A9BA1AED0369BB55691A93DCBE /* Motion.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Motion/Motion-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Motion/Motion-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Motion/Motion.modulemap";
+				PRODUCT_MODULE_NAME = Motion;
+				PRODUCT_NAME = Motion;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1827887BDC394F3B1058A3E4D123473F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8377D823271B41B4A82EFF3D2A01F1EC /* Pods-StarWars.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StarWars/Pods-StarWars-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StarWars/Pods-StarWars.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		40B8DAB79A764FE236E9DFAA781BD418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 633748A9BA1AED0369BB55691A93DCBE /* Motion.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Motion/Motion-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Motion/Motion-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Motion/Motion.modulemap";
+				PRODUCT_MODULE_NAME = Motion;
+				PRODUCT_NAME = Motion;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A649EE287CB3B8EE7CFB86DB3E4DCAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C81A36FC9BB1C6ADD84E4F83A1DCC4D9 /* Pods-StarWars.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StarWars/Pods-StarWars-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StarWars/Pods-StarWars.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43BDADB065F4863AA7A46493882083AB /* Build configuration list for PBXNativeTarget "Pods-StarWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1827887BDC394F3B1058A3E4D123473F /* Debug */,
+				8A649EE287CB3B8EE7CFB86DB3E4DCAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD85ED2280C8B28A283D153F13DDC5DA /* Build configuration list for PBXNativeTarget "Motion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08E3698226C4A264A75B3502FCBA9710 /* Debug */,
+				40B8DAB79A764FE236E9DFAA781BD418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

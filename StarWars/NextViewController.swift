@@ -7,13 +7,14 @@
 //
 
 import UIKit
+//import Hero
 
 class NextViewController: UIViewController {
     
     
     @IBOutlet weak var movieTItleLabel: UILabel!
 //    値を受け取るための箱を作っておく
-    var starwarsSeries = ""
+    var starwarsSeries: String = ""
     
     @IBOutlet weak var openingLabel: UITextView!
     
@@ -79,5 +80,11 @@ class NextViewController: UIViewController {
         
 
     }
+    
+    
+    @IBAction func didClickButton(_ sender: UIButton) {
+        performSegue(withIdentifier: "toNext2", sender: nil)
+    }
+    
 
 }
